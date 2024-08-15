@@ -1,4 +1,3 @@
-// src/screens/CategoriesScreen.js
 import React, {useState} from 'react';
 import {
   View,
@@ -126,7 +125,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     position: 'relative',
-    paddingHorizontal : 10
+    paddingHorizontal: 10,
   },
   searchBar: {
     flex: 1,

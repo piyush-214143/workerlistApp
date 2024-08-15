@@ -1,20 +1,20 @@
-// src/components/Header.js
-import React, { useState } from 'react';
-import { View, TextInput, StyleSheet, FlatList, LinearGradient } from 'react-native';
-import workersData from '../utils/workers.json';
+import React, {useState} from 'react';
+import {View, TextInput, StyleSheet, LinearGradient} from 'react-native';
 import HeaderCategories from './HeaderCategories';
 
-const Header = ({ onSearch }) => {
+const Header = ({onSearch}) => {
   const [searchText, setSearchText] = useState('');
 
-  const handleSearch = (text) => {
+  const handleSearch = text => {
     setSearchText(text);
     onSearch(text);
   };
 
   return (
     <View style={styles.container}>
-      <LinearGradient colors={['#3498db', '#8e44ad']} style={styles.gradientBackground}>
+      <LinearGradient
+        colors={['#3498db', '#8e44ad']}
+        style={styles.gradientBackground}>
         <TextInput
           style={styles.searchBar}
           placeholder="Search workers..."
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
+    shadowOffset: {width: 0, height: 1},
     shadowOpacity: 0.3,
     shadowRadius: 3,
     elevation: 3,

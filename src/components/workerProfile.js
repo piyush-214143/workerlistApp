@@ -1,14 +1,16 @@
-// src/components/WorkerProfiles.js
 import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
-import { IMAGE } from '../utils/constants';
+import {View, Text, StyleSheet, Image} from 'react-native';
+import {IMAGE} from '../utils/constants';
 
-const WorkerProfiles = ({ workers }) => {
+const WorkerProfiles = ({workers}) => {
   return (
     <View style={styles.grid}>
-      {workers.map((item) => (
+      {workers.map(item => (
         <View key={item.id} style={styles.profileContainer}>
-          <Image source={IMAGE[item.profileImage]} style={styles.profileImage} />
+          <Image
+            source={IMAGE[item.profileImage]}
+            style={styles.profileImage}
+          />
           <Text style={styles.workerName}>{item.name}</Text>
           <Image source={IMAGE[item.country]} style={styles.countryFlag} />
         </View>
@@ -21,11 +23,11 @@ const styles = StyleSheet.create({
   grid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-between', // Ensures even spacing between items
+    justifyContent: 'space-between',
     paddingHorizontal: 10,
   },
   profileContainer: {
-    width: '22%', // Adjust based on the number of columns; 22% works well for 4 columns
+    width: '22%',
     alignItems: 'center',
     marginBottom: 20,
   },

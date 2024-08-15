@@ -1,11 +1,17 @@
-// src/components/HeaderCategories.js
 import React from 'react';
-import { View, Text, Image, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
+import {
+  View,
+  Text,
+  Image,
+  TouchableOpacity,
+  FlatList,
+  StyleSheet,
+} from 'react-native';
 import categoriesData from '../utils/categories.json';
 import categoryIconMap from '../utils/constants';
 
-const HeaderCategories = ({ onCategoryPress }) => {
-  const renderCategoryItem = ({ item }) => {
+const HeaderCategories = ({onCategoryPress}) => {
+  const renderCategoryItem = ({item}) => {
     const categoryIcon = categoryIconMap[item.icon];
 
     return (
@@ -43,10 +49,10 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     borderRadius: 25,
-    backgroundColor: '#fff', // Background color for icons
+    backgroundColor: '#fff',
     padding: 5,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
+    shadowOffset: {width: 0, height: 1},
     shadowOpacity: 0.3,
     shadowRadius: 2,
     elevation: 2,
