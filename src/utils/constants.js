@@ -1,0 +1,57 @@
+export const IMAGE = {
+    "passport.png" : require("../assets/images/passport.png"),
+    "student1.jpeg" : require("../assets/images/student1.jpeg"),
+    "student2.jpeg" : require("../assets/images/student2.jpeg"),
+    "student3.jpeg" : require("../assets/images/student3.jpeg"),
+    "student4.jpeg" : require("../assets/images/student4.jpeg"),
+    "student5.jpeg" : require("../assets/images/student5.jpeg"),
+    "student6.jpeg" : require("../assets/images/student6.jpeg"),
+    "student7.jpeg" : require("../assets/images/student7.jpeg"),
+    "student8.jpeg" : require("../assets/images/student8.jpeg"),
+    "student9.jpeg" : require("../assets/images/student9.jpeg"),
+    "student10.jpeg" : require("../assets/images/student10.jpeg"),
+    "student11.jpeg" : require("../assets/images/student11.jpeg"),
+    "student12.jpeg" : require("../assets/images/student12.jpeg"),
+    "student13.jpeg" : require("../assets/images/student13.jpeg"),
+    "student14.jpeg" : require("../assets/images/student14.jpeg"),
+    "student15.jpeg" : require("../assets/images/student15.jpeg"),
+    "student16.jpeg" : require("../assets/images/student16.jpeg"),
+    "student17.jpeg" : require("../assets/images/student17.jpeg"),
+    "student18.jpeg" : require("../assets/images/student18.jpeg"),
+    "student19.jpeg" : require("../assets/images/student19.jpeg"),
+    "student20.jpeg" : require("../assets/images/student20.jpeg"),
+    "student21.jpeg" : require("../assets/images/student21.jpeg"),
+    "student22.jpeg" : require("../assets/images/student22.jpeg"),
+    "student23.jpeg" : require("../assets/images/student23.jpeg"),
+    "student24.jpeg" : require("../assets/images/student24.jpeg"),
+    "canada.png" : require("../assets/images/canada.png"),
+    "china.png" : require("../assets/images/china.png"),
+    "flag.png" : require("../assets/images/flag.png"),
+    "france.png" : require("../assets/images/france.png"),
+    "germany.png" : require("../assets/images/germany.png"),
+    "italy.png" : require("../assets/images/italy.png"),
+    "japan.png" : require("../assets/images/japan.png"),
+    "united-states.png" : require("../assets/images/united-states.png"),
+    backIcon : require("../assets/images/left-arrow.png"),
+    searchIcon : require("../assets/images/search.png"),
+   filterIcon : require("../assets/images/filter.png"),
+   chatIcon : require("../assets/images/chat.png"),
+   telephoneIcon : require("../assets/images/telephone.png"),
+   vipPersonIcon : require("../assets/images/vip-person.png"),
+   barCodeIcon : require("../assets/images/barcode-scanner.png"),
+   wishListIcon : require("../assets/images/shopping-list.png"),
+   backgroundImage : require("../assets/images/background.jpeg"),
+}
+
+// src/assets/categoryIconMap.js
+const categoryIconMap = {
+    "astrologer_icon.png": require("../assets/images/astrologer.jpeg"),
+    "assistant_icon.png": require("../assets/images/assistant.jpeg"),
+    "makeup_icon.png": require("../assets/images/makup.jpeg"),
+    "mehndi_icon.png": require("../assets/images/Mehndi.jpeg"),
+    "photographer_icon.png": require("../assets/images/photographer.jpeg"),
+  };
+  
+  export default categoryIconMap;
+  
+

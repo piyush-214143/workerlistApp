@@ -1,0 +1,171 @@
+[
+    {
+      "id": "1",
+      "name": "Rachel Green",
+      "country": "canada.png",
+      "profileImage": "student1.jpeg",
+        "category": "Astrologer"
+    },
+    {
+      "id": "2",
+      "name": "Maria Garcia",
+      "country": "china.png",
+      "profileImage": "student2.jpeg",
+        "category": "Assistant"
+    },
+    {
+      "id": "3",
+      "name": "Shivani Singh",
+      "country": "flag.png",
+      "profileImage": "student3.jpeg",
+        "category": "Makeup"
+    },
+    {
+      "id": "4",
+      "name": "Amina Al-Farsi",
+      "country": "france.png",
+      "profileImage": "student4.jpeg",
+        "category": "Mehndi"
+    },
+    {
+      "id": "5",
+      "name": "Emma Silva",
+      "country": "canada.png",
+      "profileImage": "student5.jpeg",
+        "category": "Photographer"
+    },
+    {
+      "id": "6",
+      "name": "Sofia Rossi",
+      "country": "china.png",
+      "profileImage": "student6.jpeg",
+        "category": "Astrologer"
+    },
+    {
+        "id": "7",
+        "name": "Emmy",
+        "country": "united-states.png",
+        "profileImage": "student7.jpeg",
+          "category": "Assistant"
+      },
+      {
+        "id": "8",
+        "name": "Ross Geller",
+        "country": "france.png",
+        "profileImage": "student8.jpeg",
+          "category": "Makeup"
+      },
+      {
+        "id": "9",
+        "name": "Emmy Farah",
+        "country": "germany.png",
+        "profileImage": "student9.jpeg",
+          "category": "Mehndi"
+      },
+      {
+        "id": "10",
+        "name": "Bernadette",
+        "country": "canada.png",
+        "profileImage": "student10.jpeg",
+          "category": "Photographer"
+      },
+      {
+        "id": "11",
+        "name": "Li Wong Chi",
+        "country": "china.png",
+        "profileImage": "student11.jpeg",
+          "category": "Astrologer"
+      },
+      {
+        "id": "12",
+        "name": "Phobeo",
+        "country": "flag.png",
+        "profileImage": "student12.jpeg",
+          "category": "Assistant"
+      },
+      {
+        "id": "13",
+        "name": "John Pitt",
+        "country": "france.png",
+        "profileImage": "student13.jpeg",
+          "category": "Makeup"
+      },
+      {
+        "id": "14",
+        "name": "Mariana  Gary",
+        "country": "germany.png",
+        "profileImage": "student14.jpeg",
+          "category": "Mehndi"
+      },
+      {
+        "id": "15",
+        "name": "Li Wei",
+        "country": "canada.png",
+        "profileImage": "student15.jpeg",
+          "category": "Photographer"
+      },
+      {
+        "id": "16",
+        "name": "Amina Farsi",
+        "country": "china.png",
+        "profileImage": "student16.jpeg",
+          "category": "Photographer"
+      },
+      {
+        "id": "17",
+        "name": "Carlos Silva",
+        "country": "flag.png",
+        "profileImage": "student17.jpeg",
+          "category": "Astrologer"
+      },
+      {
+        "id": "18",
+        "name": "Sofia Rossi",
+        "country": "france.png",
+        "profileImage": "student18.jpeg",
+          "category": "Assistant"
+      },
+      {
+        "id": "19",
+        "name": "John Doe",
+        "country": "italy.png",
+        "profileImage": "student19.jpeg",
+          "category": "Makeup"
+      },
+      {
+        "id": "20",
+        "name": "Maria Garcia",
+        "country": "japan.png",
+        "profileImage": "student20.jpeg",
+          "category": "Mehndi"
+      },
+      {
+        "id": "21",
+        "name": "Shing Wo",
+        "country": "canada.png",
+        "profileImage": "student21.jpeg",
+          "category": "Mehndi"
+      },
+      {
+        "id": "22",
+        "name": "Della Do",
+        "country": "china.png",
+        "profileImage": "student22.jpeg",
+          "category": "Photographer"
+      },
+      {
+        "id": "23",
+        "name": "James Bond",
+        "country": "flag.png",
+        "profileImage": "student23.jpeg",
+          "category": "Astrologer"
+      },
+      {
+        "id": "24",
+        "name": "Bradd Pit",
+        "country": "france.png",
+        "profileImage": "student24.jpeg",
+          "category": "Assistant"
+      }
+  ]
+  
